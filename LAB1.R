@@ -213,5 +213,14 @@ averageContribution(dominance_mod2,fit.functions = "r2.m")
 plot(dominance_mod2, which.graph ="general",fit.function = "r2.m") + coord_flip()
 
 
-#predicting survival is in word document, no coding used for that
+# PREDICTING SURVIVAL
+# Y = 0.354 – (0.044 * x1) + (2.623 * x2) – (1.317 * x3) – (0.376 * x4) 
+# Survival for Sue with Kate: Y = 0.354 – (0.044 * 4) + (2.623 * 2) – (1.317 * 3) – (0.376 * 1) 
+# Survival for Sue with Kate and Leonardo: Y = 0.354 – (0.044 * 4) + (2.623 * 2) – (1.317 * 3) – (0.376 * 2)
+
+#Survival for Kate with Sue: 0.354 – (0.044 * 20) + (2.623 * 2) – (1.317 * 3) – (0.376 * 1)
+#Survival for Kate with Leonardo: 0.354 – (0.044 * 20) + (2.623 * 2) – (1.317 * 3) – (0.376 * 2)
+
+#Log(odds) for Kate’s survival with Sue is 0.393, and in the probability scale 28 % (0.393 / (1 + 0.393) = 0.2821). Log(odds) for Kate’s survival with Leonardo being with them too is 0.017, and for the probability scale it is 1.6 % (0.017 / (1 + 0.017) = 0.01671). 
+
 
