@@ -212,3 +212,6 @@ plot(dominance_mod2, which.graph = "conditional", fit.function = "r2.m")
 averageContribution(dominance_mod2,fit.functions = "r2.m")
 plot(dominance_mod2, which.graph ="general",fit.function = "r2.m") + coord_flip()
 
+
+#predicting survival is in word document, no coding used for that
+
